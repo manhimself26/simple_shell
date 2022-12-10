@@ -77,7 +77,7 @@ typedef struct passinfo
 	char *arg;
 	char **argv;
 	char *path;
-	int *path;
+	int *argc;
 	unsigned int line_count;
 	int err_num;
 	int linecount_flag;
@@ -95,7 +95,7 @@ typedef struct passinfo
 	int histcount;
 } info_t;
 
-#define INFO-INIT \
+#define INFO_INIT \
 {NULL, NULL, NULL, 0, 0, 0, 0, NULL, NULL, NULL, NULL, NULL, 0, 0, NULL, \
 	0, 0, 0}
 
