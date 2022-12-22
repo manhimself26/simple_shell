@@ -48,7 +48,7 @@ ssize_t input_buf(info_t *info, char **buf, size_t *len)
  * @info: parameter struct
  * Return: bytes read
  */
-ssize_t get_input(info_t, *info)
+ssize_t get_input(info_t *info)
 {
 	static char *buf; /* the ';' command chain buffer */
 	static size_t i, j, len;
@@ -106,6 +106,3 @@ ssize_t read_buf(info_t *info, char *buf, size_t *i)
 	return (r);
 }
 
-/**
- * _getline - gets the next line of input from STDIN
- *
