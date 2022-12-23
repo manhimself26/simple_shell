@@ -24,8 +24,8 @@
 #define CMD_CHAIN	3
 
 /* for convert number() */
-#define USE_GETLINE 0
-#define USE_STRTOK 0
+#define CONVERT_LOWERCASE	1
+#define CONVERT_UNSIGNED	2
 
 /* 1 if using system getline() */
 #define USE_GETLINE 0
